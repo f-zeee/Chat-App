@@ -16,13 +16,15 @@ Here I have 4 main files in this project :
 - index.html
 
 - index.js
+
 - client.js
+
 - style.css
+
 I've organized these files into separate folders for easy understanding.
 
 In simple words, I've used HTML for designing my application, CSS to make it slightly attractive and JavaScipt to make it interactive.
 
-***
 
 ## Features
 
@@ -33,7 +35,6 @@ My application has the following features :
 - updates every member of the chat when a new user has joined or left the chat
 - produces a _ting_ audio when the user receives a message or when someone enters or leaves the chat
 
-***
 
 ## Prerequisites
 
