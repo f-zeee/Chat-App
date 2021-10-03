@@ -3,6 +3,7 @@ const socket = io('http://localhost:8000');
 const form= document.getElementById('sendcontainer');
 const messageInput = document.getElementById('messageinp');
 const messageContainer = document.querySelector(".container");
+//the above line means whenever I recieve messages I should put it in that container
 var audio = new Audio('ting.mp3');
 
 const append = (message , position)=>{

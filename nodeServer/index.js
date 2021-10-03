@@ -16,8 +16,9 @@ const users = {};
 io.on('connection', socket =>{
 
     socket.on('new-user-joined', name =>{
+        //new-user-joined is a custom event which we will emit from client.js
         console.log("New user", name);
-    //this will append the new user in users{} and informs others new user has joined
+        //this will append the new user in users{} and informs others new user has joined
         users[socket.id]=name;
         socket.broadcast.emit('user-joined', name); //telling all users,user joined
     })
